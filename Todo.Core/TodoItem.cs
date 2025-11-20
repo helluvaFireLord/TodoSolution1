@@ -16,6 +16,8 @@ namespace Todo.Core
 
         public TodoItem() { }
 
+        //fgdgfdg
+
         public TodoItem(string title)
         {
             Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
